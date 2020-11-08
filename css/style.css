@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: #2b617a double 5px;
+  margin: 10px 40px;
+  padding: 20px;
+  font-family: Roboto, "Times New Roman", Times, sans-serif, serif;
+}
+
+ul {
+  list-style: square;
+}
+
+a {
+  color: #296683;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #5f3370;
+}
+
+a:hover,
+a:focus {
+  color: #55a2c5;
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+header h2 {
+  font-size: 36px;
+  color: #55a2c5;
+  padding: 10px;
+  font-family: "Playfair Display", serif;
+}
+
+header p {
+  color: #2c967f;
+  font-size: 20px;
+}
+
+p,
+.education,
+.experience,
+.references {
+  margin: 10px 50px;
+}
+
+.education .title,
+.experience .title,
+.references .title {
+  color: #296683;
+  border: 7px;
+  border-bottom-style: solid;
+  font-weight: bold;
+}
+
+.education .school-name,
+.experience .company,
+.references .reference,
+.position {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #2c967f;
+  font-weight: bold;
+}
+
+.contact {
+  font-size: 18px;
+  color: #2c967f;
+  font-weight: bold;
+}
+
+.education .description,
+.experience .description,
+.references .description {
+  padding-left: 25px;
+  font-size: 20px;
+}
